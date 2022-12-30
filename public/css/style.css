@@ -13,6 +13,7 @@ body {
 }
 
 .footer {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +41,35 @@ body {
 
 .container {
   padding: 2px 16px;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+}
+
+/* Slider.js */
+
+.swiper {
+  width: 30%;
+  margin-top: 2rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
