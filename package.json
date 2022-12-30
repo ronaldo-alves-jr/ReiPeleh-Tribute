@@ -1,0 +1,23 @@
+{
+  "name": "reipeleh-timeline",
+  "version": "1.0.0",
+  "description": "Uma singela homenagem ao grande rei Pelé que contribuiu imensuravelmente para história do futebol brasileiro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldo-alves-jr/ReiPeleh-Timeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronaldo-alves-jr/ReiPeleh-Timeline/issues"
+  },
+  "homepage": "https://github.com/ronaldo-alves-jr/ReiPeleh-Timeline#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
