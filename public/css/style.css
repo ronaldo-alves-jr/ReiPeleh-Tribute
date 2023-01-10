@@ -15,11 +15,20 @@ body {
   align-items: center;
 }
 
-.footer {
+/* .footer {
   margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.footer {
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
 }
 
 /* .main {
@@ -73,8 +82,7 @@ h4 {
 }
 
 .swiper-pagination {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: -1.5rem;
 }
 
 .img-container {
@@ -138,8 +146,13 @@ b {
   width: 100%;
 }
 
-.pele-img{
+.right-img{
+  display:flex;
+  width: 100%;
+}
+
+.pele-img {
   position: relative;
-  width: 70%;
+  width: 100%;
 
 }
